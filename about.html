@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html class="no-js" lang="EN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Hotel Vistara Grand | Haridwar</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.png"
+    />
+    <!-- Add this in your <head> section -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/datepicker.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <div id="loading-center">
+        <div class="loader">
+          <div class="loader-outter"></div>
+          <div class="loader-inner"></div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader-end -->
+
+    <!-- Scroll-top -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+      <i class="fas fa-angle-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <!-- header-area -->
+    <header>
+      <div
+        id="sticky-header"
+        class="menu-area menu-style-three menu-style-four transparent-header"
+      >
+        <div class="container-fulid">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+              <div class="menu-wrap">
+                <nav class="menu-nav">
+                  <div class="logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/logo.png" alt=""
+                    /></a>
+                  </div>
+                  <div class="navbar-wrap main-menu d-none d-lg-flex">
+                    <ul class="navigation">
+                      <li class="menu-item-has-children">
+                        <a href="#">Home</a>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="#">Rooms</a>
+                        <ul class="submenu">
+                          <li><a href="room.html">Room List</a></li>
+                          <li><a href="room-details.html">Room Details</a></li>
+                        </ul>
+                      </li>
+                      <li class="active"><a href="about.html">About</a></li>
+                      <li><a href="service.html">Service</a></li>
+                      <li class="menu-item-has-children">
+                        <a href="#">News</a>
+                        <ul class="submenu">
+                          <li><a href="blog.html">Our Blog</a></li>
+                          <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="header-action d-none d-md-block">
+                    <ul>
+                      <li><a href="#">En</a></li>
+                      <li><a href="#">Fn</a></li>
+                      <li class="header-search">
+                        <a href="#"><i class="flaticon-search"></i></a>
+                      </li>
+                      <li class="header-btn">
+                        <a href="room-details.html" class="btn"
+                          >book <span>now</span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <!-- Mobile Menu  -->
+              <div class="mobile-menu">
+                <nav class="menu-box">
+                  <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
+                  <div class="nav-logo">
+                    <a href="index.html"
+                      ><img src="assets/img/logo/logo_2.png" alt="" title=""
+                    /></a>
+                  </div>
+                  <div class="menu-outer">
+                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                  </div>
+                  <div class="social-links">
+                    <ul class="clearfix">
+                      <li>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="fab fa-pinterest-p"></span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                      </li>
+                      <li>
+                        <a href="#"><span class="fab fa-youtube"></span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="menu-backdrop"></div>
+              <!-- End Mobile Menu -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-search -->
+      <div
+        class="search-popup-wrap"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="search-close"><i class="fa-solid fa-xmark"></i></div>
+        <div class="search-wrap text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="title">... Search Here ...</h2>
+                <div class="search-form">
+                  <form action="#">
+                    <input
+                      type="text"
+                      name="search"
+                      placeholder="Type keywords here"
+                    />
+                    <button class="search-btn">
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-search-end -->
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <main>
+      <!-- breadcrumb-area -->
+      <section class="breadcrumb-area breadcrumb-bg">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-8">
+              <div class="breadcrumb-content">
+                <h2 class="title">about us</h2>
+                <p>explore the features</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-4">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    about us
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- breadcrumb-area-end -->
+
+      <!-- about-area -->
+      <section class="about-area inner-about pt-120">
+        <div class="about-shape"></div>
+        <div class="about-shape-two"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="about-content">
+                <div class="section-title mb-25">
+                  <span class="sub-title">About Us</span>
+                  <h2 class="title black-title">
+                    Welcome to Hotel
+                    <span class="about-name-color"> Vistara Grand</span>
+                  </h2>
+                </div>
+                <p>
+                  Welcome to Hotel Vistara Grand, your gateway to serenity in
+                  the heart of Haridwar.
+                </p>
+                <p>
+                  Nestled along the sacred banks of the Ganges River, our hotel
+                  offers an oasis of tranquility amidst the vibrant and
+                  culturally rich city of Haridwar. At Hotel Vistara Grand, we
+                  take pride in providing you with a warm and welcoming home
+                  away from home.
+                </p>
+                <p>
+                  Our story began with a deep-rooted love for the timeless charm
+                  and spirituality of Haridwar. It was our dream to create a
+                  haven where guests could experience the beauty, culture, and
+                  spirituality of this holy city while enjoying the modern
+                  comforts and conveniences of a world-class hotel.
+                </p>
+                <p>
+                  From the moment you step through our doors, you'll be
+                  enveloped in an atmosphere of elegance and hospitality. Our
+                  well-appointed rooms and suites offer the perfect blend of
+                  contemporary design and traditional Indian aesthetics,
+                  ensuring a comfortable and peaceful stay. Whether you're a
+                  pilgrim seeking spiritual solace, a traveler exploring the
+                  city's rich history, or a business professional in need of a
+                  restful retreat, Hotel Vistara Grand has the ideal
+                  accommodation for you.
+                </p>
+                <!-- <p>
+                  We understand that dining is a significant aspect of your
+                  travel experience, and our in-house restaurant presents a
+                  delightful culinary journey. Savor the flavors of authentic
+                  Indian cuisine, international delights, and a range of
+                  delicious dishes prepared by our expert chefs. With every
+                  bite, you'll embark on a delightful gastronomic adventure.
+                </p>
+                <p>
+                  Our dedication to your comfort extends beyond the confines of
+                  your room. Our team of attentive and friendly staff is always
+                  on hand to provide exceptional service and assistance,
+                  ensuring your stay is as smooth and enjoyable as possible.
+                  We're here to help you make the most of your time in Haridwar,
+                  whether you need guidance on local attractions,
+                  transportation, or anything else that enhances your visit.
+                </p> -->
+                <p>
+                  Hotel Vistara Grand is also equipped with modern amenities to
+                  cater to the needs of business travelers, making it an
+                  excellent choice for corporate events, conferences, and
+                  meetings. We have state-of-the-art facilities to ensure your
+                  events are a success.
+                </p>
+                <p>
+                  Haridwar's spiritual and cultural treasures are at your
+                  doorstep when you stay with us. The famous Ganga Aarti at Har
+                  Ki Pauri, the mesmerizing beauty of Chandi Devi and Mansa Devi
+                  temples, and the historic Rajaji National Park are just a few
+                  of the attractions that await you.
+                </p>
+                <p>
+                  At Hotel Vistara Grand, we are not just in the business of
+                  offering accommodation; we are committed to creating memorable
+                  experiences for our guests. We invite you to join us on your
+                  journey through Haridwar and create lasting memories in the
+                  lap of tranquility.
+                </p>
+                <p>
+                  Thank you for choosing Hotel Vistara Grand, and we look
+                  forward to being a part of your Haridwar adventure. Your story
+                  begins here.
+                </p>
+                <div class="about-content-bottom">
+                  <div class="reservation">
+                    <div class="icon">
+                      <img src="assets/img/icon/reservation_icon.png" alt="" />
+                    </div>
+                    <div class="content">
+                      <h4 class="title black-title">Reservation</h4>
+                      <a href="tel:+919759510511">+91 975 951 0511</a>
+                    </div>
+                  </div>
+                  <div class="social">
+                    <span>Follow Us</span>
+                    <ul>
+                      <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-10">
+              <div class="about-img">
+                <img src="assets/img/images/about_img05.jpg" alt="" />
+                <img
+                  src="assets/img/images/about_img06.jpg"
+                  alt=""
+                  class="img-two"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about-area-end -->
+
+      <!-- counter-area -->
+      <div class="counter-area">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="counter-item">
+                <span class="title">658+</span>
+                <span class="count odometer" data-count="658"></span>
+                <p>
+                  HAPPY <br />
+                  CLIENTS
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="counter-item">
+                <span class="title">1</span>
+                <span class="count odometer" data-count="1"></span>
+                <p>
+                  YEARS OF <br />
+                  EXPERIENCE
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="counter-item">
+                <span class="title">45</span>
+                <span class="count odometer" data-count="45"></span>
+                <p>
+                  awards <br />
+                  winning
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="counter-item">
+                <span class="title">12</span>
+                <span class="count odometer" data-count="12"></span>
+                <p>
+                  hotel <br />
+                  membership
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- counter-area-end -->
+
+      <!-- spa-center-area -->
+      <section class="spa-center-area spa-center-style-two">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-5 col-md-6">
+              <div class="spa-img">
+                <img src="assets/img/images/spa_img02.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-7 col-md-6">
+              <div class="spa-content">
+                <div class="section-title">
+                  <img src="assets/img/icon/section_title_icon02.png" alt="" />
+                  <span class="sub-title">DISCOVER Hotel Vistara Grand</span>
+                  <h2 class="title">Deluxe Room</h2>
+                </div>
+                <p>
+                  Our deluxe rooms offer a luxurious and spacious retreat for
+                  your stay. Featuring a comfortable king-size bed with premium
+                  bedding, a modern private bathroom, and a cozy sitting area,
+                  our deluxe rooms are designed to provide the ultimate in
+                  comfort and relaxation. Enjoy complimentary toiletries and
+                  high-quality linens, all within an elegantly decorated space
+                  that creates a welcoming and upscale ambiance for your stay.
+                </p>
+                <ul>
+                  <li><i class="flaticon-weight"></i>FITNESS CENTER</li>
+                  <li><i class="flaticon-swimming"></i>SWIMMING LANE</li>
+                  <li><i class="flaticon-sofa-1"></i>RELAXATION ROOM</li>
+                  <li><i class="flaticon-massage"></i>2 TREATMENT CABINS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- spa-center-area-end -->
+
+      <!-- video-area -->
+      <!-- <div class="video-area-two pt-120">
+        <div class="container">
+          <div class="video-inner">
+            <div class="video-bg">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="paly-icon">
+                    <a
+                      href="https://www.youtube.com/watch?v=s1FXjvebvRA"
+                      class="paly-btn popup-video pulse"
+                      ><i class="flaticon-play-button-arrowhead"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- video-area-end -->
+
+      <!-- pricing-area -->
+      <!-- <section class="pricing-area pt-110 pb-90">
+        <div class="container">
+          <div class="pricing-inner">
+            <div class="row align-items-center mb-55">
+              <div class="col-lg-6">
+                <div class="section-title">
+                  <h2 class="title black-title">
+                    Welcome to our flexible pricing plans
+                  </h2>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="pricing-top-content">
+                  <p>
+                    In publishing and graphic design, Lorem ipsum is a placolder
+                    text commonly used to derate the visual form document.when
+                    an unknown printer took a galley of type
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-wrap">
+              <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                  <div class="pricing-item">
+                    <h3 class="pricing-title black-title">basic card</h3>
+                    <div class="pricing-price">
+                      <span>$</span>
+                      <h2 class="title">29</h2>
+                      <p>/ month</p>
+                    </div>
+                    <div class="pricing-list mb-40">
+                      <ul>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Save up to 20% on
+                          Hotel Vistara Grand
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Indulgent breakfast
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>World Class Butler
+                          Service
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Luxurious Bathroom
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Your Special
+                          Moments
+                        </li>
+                        <li><i class="flaticon-check-mark"></i>Talise Spal</li>
+                      </ul>
+                    </div>
+                    <div class="pricing-btn">
+                      <a href="contact.html" class="btn">buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                  <div class="pricing-item">
+                    <h3 class="pricing-title black-title">silver card</h3>
+                    <div class="pricing-price">
+                      <span>$</span>
+                      <h2 class="title">35</h2>
+                      <p>/ month</p>
+                    </div>
+                    <div class="pricing-list mb-40">
+                      <ul>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Save up to 20% on
+                          Hotel Vistara Grand
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Indulgent breakfast
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>World Class Butler
+                          Service
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Luxurious Bathroom
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Your Special
+                          Moments
+                        </li>
+                        <li><i class="flaticon-check-mark"></i>Talise Spal</li>
+                      </ul>
+                    </div>
+                    <div class="pricing-btn">
+                      <a href="contact.html" class="btn">buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                  <div class="pricing-item active">
+                    <h3 class="pricing-title black-title">platinum card</h3>
+                    <div class="pricing-price">
+                      <span>$</span>
+                      <h2 class="title">59</h2>
+                      <p>/ month</p>
+                    </div>
+                    <div class="pricing-list mb-40">
+                      <ul>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Save up to 20% on
+                          Hotel Vistara Grand
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Indulgent breakfast
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>World Class Butler
+                          Service
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Luxurious Bathroom
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Your Special
+                          Moments
+                        </li>
+                        <li><i class="flaticon-check-mark"></i>Talise Spal</li>
+                      </ul>
+                    </div>
+                    <div class="pricing-btn">
+                      <a href="contact.html" class="btn">buy now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                  <div class="pricing-item">
+                    <h3 class="pricing-title black-title">Gold card</h3>
+                    <div class="pricing-price">
+                      <span>$</span>
+                      <h2 class="title">69</h2>
+                      <p>/ month</p>
+                    </div>
+                    <div class="pricing-list mb-40">
+                      <ul>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Save up to 20% on
+                          Hotel Vistara Grand
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Indulgent breakfast
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>World Class Butler
+                          Service
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Luxurious Bathroom
+                        </li>
+                        <li>
+                          <i class="flaticon-check-mark"></i>Your Special
+                          Moments
+                        </li>
+                        <li><i class="flaticon-check-mark"></i>Talise Spal</li>
+                      </ul>
+                    </div>
+                    <div class="pricing-btn">
+                      <a href="contact.html" class="btn">buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- pricing-area-end -->
+
+      <!-- Online Booking Carousel -->
+      <section class="online-booking-carousel">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="carousel">
+                <h4 style="color: gold">Book Us Online</h4>
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="assets/img/online-bookings-platforms/FAB_logo_large.png"
+                      alt="FabHotels"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/img/online-bookings-platforms/MakeMyTrip_Logo.png"
+                      alt="Make My Trip"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="assets/img/online-bookings-platforms/goIbibo.png"
+                      alt="Booking Website 3"
+                    />
+                  </div>
+                  <!-- Add more items as needed -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- main-area-end -->
+
+    <!-- footer-area -->
+    <footer>
+      <div class="footer-area footer-style-two">
+        <div class="footer-newsletter newsletter-bg">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-6 col-lg-8 col-md-10">
+                <div class="footer-logo text-center mb-10">
+                  <a href="index.html"
+                    ><img src="assets/img/logo/logo.png" alt="logo"
+                  /></a>
+                </div>
+                <div class="newsletter-content text-center">
+                  <span>five star hotel discover</span>
+                  <h2 class="title">GET NEWS & OFFERS subscribe us</h2>
+                  <form action="#" class="newsletter-form">
+                    <input
+                      type="email"
+                      placeholder="Enter your email address"
+                    />
+                    <button type="submit">subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <div class="footer-top-left">
+                  <div class="footer-icon">
+                    <img
+                      src="assets/img/icon/section_title_icon.png"
+                      alt="img"
+                    />
+                  </div>
+                  <div class="footer-content">
+                    <h4 class="title">Hotel Vistara Grand</h4>
+                    <ul>
+                      <li>
+                        Tel: <a href="tel:+919759510511">+91 975 951 0511</a>
+                      </li>
+                      <li>
+                        E-mail: <a href="#">hotelvistaragrand@gmail.com</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer-top-right">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="copyright-text">
+                  <p>
+                    | Copyright © 2023 <a href="#">Hotel Vistara Grand</a>. All
+                    Rights Reserved.
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="footer-lang text-end">
+                  <div class="dropdown">
+                    <button class="dropdown-toggle" data-bs-toggle="dropdown">
+                      <img src="assets/img/icon/india.png" alt="" />
+                      English
+                    </button>
+                    <!-- <div class="dropdown-menu">
+                      <a class="dropdown-item" href="index.html"
+                        ><img
+                          src="assets/img/icon/russia.png"
+                          alt=""
+                        />Russia</a
+                      >
+                      <a class="dropdown-item" href="index.html"
+                        ><img
+                          src="assets/img/icon/thailand.png"
+                          alt=""
+                        />Thailand</a
+                      >
+                      <a class="dropdown-item" href="index.html"
+                        ><img src="assets/img/icon/india.png" alt="" />India</a
+                      >
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area-end -->
+
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.odometer.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Add this at the end of your <body> section, before the closing </body> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </body>
+</html>
