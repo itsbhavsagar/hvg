@@ -20,4 +20,4 @@ Disallow: /checkout/
 
 # Specific instructions for Bingbot
 
-Sitemap: https://www.examplehotel.com/sitemap.xml
+Sitemap: https://www.hotelvistaragrand.com
