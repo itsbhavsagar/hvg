@@ -1,0 +1,30 @@
+# Query: reservations@hotelvistaragrand.com
+# ContextLines: 1
+
+6 results - 5 files
+
+about.html:
+  510                          E-mail:
+  511:                         <a href="#">hotelvistaragrand@gmail.com</a>
+  512                        </li>
+
+contact.html:
+  400                        >For Bookings:
+  401:                       <a href="mailto:hotelvistaragrand@gmail.com"
+  402:                         >hotelvistaragrand@gmail.com</a
+  403                        ></span
+
+privacy&policy.html:
+  309                            E-mail:
+  310:                           <a href="#">hotelvistaragrand@gmail.com</a>
+  311                          </li>
+
+room.html:
+  571                          E-mail:
+  572:                         <a href="#">hotelvistaragrand@gmail.com</a>
+  573                        </li>
+
+terms&conditions.html:
+  811                          E-mail:
+  812:                         <a href="#">hotelvistaragrand@gmail.com</a>
+  813                        </li>
