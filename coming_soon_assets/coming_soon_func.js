@@ -1,7 +1,8 @@
 (function ($) {
   'use strict';
   setInterval(function () {
-    var target = new Date('May 2024 13:30:00 GMT+0530'); //replace with YOUR DATE
+    //replace with YOUR DATE
+    var target = new Date('May 2024 13:30:00 GMT+0530');
     var now = new Date();
     var difference = Math.floor((target.getTime() - now.getTime()) / 1000);
 
